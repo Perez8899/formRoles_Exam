@@ -3,7 +3,7 @@ include '../models/validateModel.php';
 ?>
 
 <!DOCTYPE html>
-<html lang="es-MX">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">

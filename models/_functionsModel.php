@@ -24,7 +24,7 @@ if (isset($_POST['action'])) {
 
 }
 
-function edit_record()
+function edit_record() //function eedit record
 {
     $connection = mysqli_connect("localhost", "root", "", "examprogramroles");
     extract($_POST);
@@ -38,7 +38,7 @@ function edit_record()
 
 }
 
-function delete_record()
+function delete_record() //function delete
 {
     $connection = mysqli_connect("localhost", "root", "", "examprogramroles");
     extract($_POST);
@@ -52,7 +52,7 @@ function delete_record()
 
 }
 
-function access_user()
+function access_user() //function access of usera
 {
     $name = $_POST['name'];
     $password = $_POST['password'];

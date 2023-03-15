@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <form action="../models/_functionsModel.php" method="POST">
+    <form action="../models/_functionsModel.php" method="POST" class="loginView">
         <div id="login">
             <div class="container">
                 <div id="login-row" class="row justify-content-center align-items-center">
